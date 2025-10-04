@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__gcodeSerial__send_gcode",
+      "mcp__visaSender__send_visa_command",
+      "Bash(arduino-cli board:*)",
+      "mcp__visaSender__list_visa_resources",
+      "Bash(arduino-cli compile:*)",
+      "Bash(arduino-cli upload:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

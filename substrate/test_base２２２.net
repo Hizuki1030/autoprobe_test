@@ -1,0 +1,89 @@
+( { EESchema Netlist Version 1.1 created  2025-10-03T20:49:29+0900 }
+ ( /57b4b909-e9dd-4dce-bb87-498cded8df2d auto_probe:AP_TP  TX1 
+  (    1 /XIAO_TX )
+  (    2 GND )
+ )
+ ( /4a3c912a-6e8a-4483-9d05-1f787dcc6583 auto_probe:AP_TP  RX1 
+  (    1 /XIAO_RX )
+  (    2 GND )
+ )
+ ( /5037358e-fd02-47c2-aaa5-11d348133246 Seeed_Studio_XIAO_Series:XIAO-RP2040-SMD  U2 XIAO-RP2040-SMD
+  (    1 unconnected-(U2-GPIO26_A0_D0-Pad1) )
+  (    2 unconnected-(U2-GPIO27_A1_D1-Pad2) )
+  (    3 unconnected-(U2-GPIO28_A2_D2-Pad3) )
+  (    4 unconnected-(U2-GPIO29_A3_D3-Pad4) )
+  (    5 /SDA )
+  (    6 /SCL )
+  (    7 /XIAO_TX )
+  (    8 /XIAO_RX )
+  (    9 unconnected-(U2-GPIO2_D8_SCK-Pad9) )
+  (   10 /PIN1 )
+  (   11 /PIN2 )
+  (   12 +3.3V )
+  (   13 GND )
+  (   14 +5V )
+  (   15 unconnected-(U2-BAT-Pad15) )
+  (   16 unconnected-(U2-GND-Pad16) )
+  (   17 unconnected-(U2-SWDIO-Pad17) )
+  (   18 unconnected-(U2-SWDCLK-Pad18) )
+  (   19 unconnected-(U2-RST-Pad19) )
+  (   20 unconnected-(U2-GND-Pad20) )
+ )
+ ( /7fe8b4c3-ce8d-4b68-8635-c2f265e698df Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal  J2 Conn_01x04_Pin
+  (    1 +3.3V )
+  (    2 /XIAO_TX )
+  (    3 /XIAO_RX )
+  (    4 GND )
+ )
+ ( /6e4c0e41-4659-4610-b253-bd9ed47708e5 Resistor_SMD:R_0603_1608Metric  R1 R
+  (    1 +3.3V )
+  (    2 /SCL )
+ )
+ ( /7eda90f8-27cd-4653-826e-3d64e701fcd1 Resistor_SMD:R_0603_1608Metric  R2 R
+  (    1 +3.3V )
+  (    2 /SDA )
+ )
+ ( /35baeba8-c3a7-45b8-af3a-af43783cfa53 Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP  SW1 SW_Push
+  (    1 unconnected-(SW1-Pad1) )
+  (    2 unconnected-(SW1-Pad2) )
+ )
+ ( /815032cb-7252-467b-a223-51028b5c1e97 Capacitor_SMD:C_0603_1608Metric  C1 0.1u
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /bc0391ca-72d5-41db-82e7-2c6905b5eec0 auto_probe:AP_TP  PIN2 
+  (    1 /PIN2 )
+  (    2 GND )
+ )
+ ( /5d11952b-fa7d-49e1-9adb-d2759bf1812b Package_TO_SOT_SMD:SOT-23-6  U1 MCP4725xxx-xCH
+  (    1 Net-(J1-In) )
+  (    2 GND )
+  (    3 +3.3V )
+  (    4 /SDA )
+  (    5 /SCL )
+  (    6 GND )
+ )
+ ( /45c73b87-9713-47d7-9c64-5dbad6daa8e1 Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical  J3 Conn_01x03_Pin
+  (    1 GND )
+  (    2 /PIN1 )
+  (    3 +5V )
+ )
+ ( /f8dd4394-7021-466e-a409-049df2793a71 Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical  J4 Conn_01x03_Pin
+  (    1 GND )
+  (    2 /PIN2 )
+  (    3 +5V )
+ )
+ ( /c2e68d69-eac5-4c09-a404-73390622f6de auto_probe:AP_TP  AO1 
+  (    1 Net-(J1-In) )
+  (    2 GND )
+ )
+ ( /64874352-7e40-4c31-afa7-6b0b2fe8fb02 Connector_Coaxial:SMA_Amphenol_132289_EdgeMount  J1 Conn_Coaxial
+  (    1 Net-(J1-In) )
+  (    2 GND )
+ )
+ ( /aeaf163f-c468-4545-8f02-113c3b83d5f0 auto_probe:AP_TP  PIN1 
+  (    1 /PIN1 )
+  (    2 GND )
+ )
+)
+*

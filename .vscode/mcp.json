@@ -1,0 +1,22 @@
+{
+  "servers": {
+    "gcodeSerial": {
+      "type": "stdio",
+      "command": "/Users/aibahizuki/Documents/GitHub/mcp-extension-sample/.venv/bin/python",
+      "args": [
+        "/Users/aibahizuki/Documents/GitHub/mcp-extension-sample/mcp_gcode_server.py"
+      ],
+      "env": {}
+    },
+    "visaSender": {
+      "type": "stdio",
+      "command": "/Users/aibahizuki/Documents/GitHub/mcp2visa/.venv/bin/python3",
+      "args": [
+        "/Users/aibahizuki/Documents/GitHub/mcp2visa/src/mcp2visa/server.py"
+      ],
+      "env": {
+        "PYVISA_LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}
